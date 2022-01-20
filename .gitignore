@@ -1,0 +1,45 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# editors
+.vs/
+.vscode/
+NyxCore/.vs/
+
+# compiled
+NyxCore/Bin/
+NyxCore/Debug/
+NyxCore/PDB/
+NyxCore/Release/
+NyxCore/G1\ Release/
+NyxCore/G1\ Debug/

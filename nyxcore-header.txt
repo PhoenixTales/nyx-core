@@ -1,0 +1,17 @@
+/*
+* This file is part of nyx-core, a Union plugin for ZenGin.
+*
+* ZenGin is a proprietary 3D video game engine developed by the Mad Scientists, distributed with Gothic (TM) (2001) developed by Piranha Bytes.
+* (c) THQ Nordic.
+*
+* Union is a framework which allows to use custom ZenGin plugins written in C++.
+* (c) Union team (https://worldofplayers.ru/threads/40376/)
+*
+* nyx-core is written for the non-profit video game project Phoenix (https://phoenixthegame.com/).
+* (c) PhoenixTales (https://phoenixtales.de/)
+*
+* The files of nyx-core are released under the MIT license <link> unless otherwise specified.
+* 
+* This file has been modified from <source link>.
+* It is released under <license>.
+*/
