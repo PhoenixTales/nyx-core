@@ -1,6 +1,19 @@
 # nyx-core
 zEngine extensions for [Project Nyx aka PHOENIX](https://phoenixthegame.com/) by [PhoenixTales](https://phoenixtales.de/).
 
+
+## Authors
+
+### Plugins written for Phoenix
+* Alpha Attributes: Oliver aka logx 
+* Nyx' HumBodyStyle System: Sasha aka jr
+* Alpha Fire Decal Fix: Pierre aka ThielHater
+
+### Included Plugins that were not specifically written for Phoenix
+* Climbing Angle Fix by Marek for the GRM
+* ... 
+
+
 ## ReadMe ToDo
 - [ ] compile nyx-core after verifying toolchain: C++ include path `${NYXCORE_ROOT}`?
 - [ ] plugin config in mod.ini?
