@@ -1,0 +1,1 @@
+Copy dll to "System\autorun" folder or make VDF with the same structure.

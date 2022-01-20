@@ -1,0 +1,43 @@
+
+
+1) Added new scripting function:
+Mdl_SetHumBodyType(C_NPC npc, string type) - The function adds a prefix to the textures of the body and head of the NPC.
+
+For example:
+instance EBR_108_Velaya(Npc_Default)
+{
+	name[0] = "Velaya";
+	Mdl_SetVisual (self, "BABE.MDS");
+	
+	// body variation = 0
+	// head variation = 0
+	// skin color = 1
+	Mdl_SetVisualBody (self, "Bab_body_Naked0", 0, 1, "Bab_Head_Hair1", 0, DEFAULT, -1);
+	
+	// ...
+	// set new 'body type'
+	Mdl_SetHumBodyType(self, "Velaya");
+};
+
+Then the textures for it will be as follows:
+For body - "BAB_BODY_VELAYA_V0_C1.TGA"
+For head - "BAB_HEAD_VELAYA_V0_C1.TGA"
+
+Likewise for NPC men, only in this case the prefix "HUM_" is used.
+For example:
+"HUM_BODY_PSIONIC_V5_C0"
+"HUM_HEAD_PSIONIC_V11_C0"
+
+
+2) Added new scripting constant for debug mode:
+const int HumBodyStyleSystem_DebugMode = 1;
+
+If a constant is declared in scripts and its value is equal to "1", then the textures not found for the bodies and heads of the NPC become red.
+
+If its value is "0" or just not declared, then the old rendering system works for NPCs with not found textures.
+
+At the end of the tests, you can delete.
+
+These call options reset the render system to the old one:
+Mdl_SetHumBodyType(self, "");
+Mdl_SetHumBodyType(self, "Naked");
