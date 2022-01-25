@@ -1,0 +1,11 @@
+0.91-1.01 Bar Textures
+
+* Deaktiviert, damit sie nicht als .tex kompiliert 
+  werden und mit den 0.9 Texturen in Konflikt geraten.
+
+* Sollen später in eine eigene .vdf, um bei Bedarf 
+  nach Auswahl im Install Setup die 0.9 Texturen zu 
+  überschreiben (idealerweise besser im Menü)
+
+- flosha
+
