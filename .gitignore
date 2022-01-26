@@ -34,12 +34,12 @@
 # editors
 .vs/
 .vscode/
-NyxCore/.vs/
+AlphaAttributes/.vs/
 
 # compiled
-NyxCore/Bin/
-NyxCore/Debug/
-NyxCore/PDB/
-NyxCore/Release/
-NyxCore/G1\ Release/
-NyxCore/G1\ Debug/
+AlphaAttributes/Bin/
+AlphaAttributes/Debug/
+AlphaAttributes/PDB/
+AlphaAttributes/Release/
+AlphaAttributes/G1\ Release/
+AlphaAttributes/G1\ Debug/
