@@ -10,7 +10,7 @@ zEngine extensions for [Project Nyx aka PHOENIX](https://phoenixthegame.com/) by
 * Alpha Fire Decal Fix: Pierre aka ThielHater
 
 ### Included Plugins that were not specifically written for Phoenix
-* Climbing Angle Fix by Marek for the GRM
+* Climbing Angle Fix by Degenerated/BlackBat for the GRM
 * ... 
 
 
