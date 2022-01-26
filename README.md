@@ -1,5 +1,5 @@
 # nyx-core
-zEngine extensions for [Project Nyx aka PHOENIX](https://phoenixthegame.com/) by [PhoenixTales](https://phoenixtales.de/).
+zEngine extensions for [PHOENIX](https://phoenixthegame.com/) ('Project Nyx') by [PhoenixTales](https://phoenixtales.de/).
 
 
 ## Authors
