@@ -35,11 +35,19 @@
 .vs/
 .vscode/
 AlphaAttributes/.vs/
+FireDecalFix/.vs/
 
 # compiled
+PDB/
 AlphaAttributes/Bin/
 AlphaAttributes/Debug/
 AlphaAttributes/PDB/
 AlphaAttributes/Release/
 AlphaAttributes/G1\ Release/
 AlphaAttributes/G1\ Debug/
+FireDecalFix/Bin/
+FireDecalFix/Debug/
+FireDecalFix/PDB/
+FireDecalFix/Release/
+FireDecalFix/G1\ Release/
+FireDecalFix/G1\ Debug/
