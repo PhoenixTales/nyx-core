@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29920.165
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NyxCore", "NyxCore.vcxproj", "{C1A4D670-503D-4563-B489-D746D07BDE4B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AlphaAttributes", "AlphaAttributes\AlphaAttributes.vcxproj", "{C1A4D670-503D-4563-B489-D746D07BDE4B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FireDecalFix", "FireDecalFix\FireDecalFix.vcxproj", "{C9D1D1E9-BAEC-4263-9C6C-6B0DF9428CCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,26 @@ Global
 		{C1A4D670-503D-4563-B489-D746D07BDE4B}.G2A Release|x86.Build.0 = G2A Release|Win32
 		{C1A4D670-503D-4563-B489-D746D07BDE4B}.Release|x86.ActiveCfg = Release|Win32
 		{C1A4D670-503D-4563-B489-D746D07BDE4B}.Release|x86.Build.0 = Release|Win32
+		{C9D1D1E9-BAEC-4263-9C6C-6B0DF9428CCF}.Debug|x86.ActiveCfg = Debug|Win32
+		{C9D1D1E9-BAEC-4263-9C6C-6B0DF9428CCF}.Debug|x86.Build.0 = Debug|Win32
+		{C9D1D1E9-BAEC-4263-9C6C-6B0DF9428CCF}.G1 Debug|x86.ActiveCfg = G1 Debug|Win32
+		{C9D1D1E9-BAEC-4263-9C6C-6B0DF9428CCF}.G1 Debug|x86.Build.0 = G1 Debug|Win32
+		{C9D1D1E9-BAEC-4263-9C6C-6B0DF9428CCF}.G1 Release|x86.ActiveCfg = G1 Release|Win32
+		{C9D1D1E9-BAEC-4263-9C6C-6B0DF9428CCF}.G1 Release|x86.Build.0 = G1 Release|Win32
+		{C9D1D1E9-BAEC-4263-9C6C-6B0DF9428CCF}.G1A Debug|x86.ActiveCfg = G1A Debug|Win32
+		{C9D1D1E9-BAEC-4263-9C6C-6B0DF9428CCF}.G1A Debug|x86.Build.0 = G1A Debug|Win32
+		{C9D1D1E9-BAEC-4263-9C6C-6B0DF9428CCF}.G1A Release|x86.ActiveCfg = G1A Release|Win32
+		{C9D1D1E9-BAEC-4263-9C6C-6B0DF9428CCF}.G1A Release|x86.Build.0 = G1A Release|Win32
+		{C9D1D1E9-BAEC-4263-9C6C-6B0DF9428CCF}.G2 Debug|x86.ActiveCfg = G2 Debug|Win32
+		{C9D1D1E9-BAEC-4263-9C6C-6B0DF9428CCF}.G2 Debug|x86.Build.0 = G2 Debug|Win32
+		{C9D1D1E9-BAEC-4263-9C6C-6B0DF9428CCF}.G2 Release|x86.ActiveCfg = G2 Release|Win32
+		{C9D1D1E9-BAEC-4263-9C6C-6B0DF9428CCF}.G2 Release|x86.Build.0 = G2 Release|Win32
+		{C9D1D1E9-BAEC-4263-9C6C-6B0DF9428CCF}.G2A Debug|x86.ActiveCfg = G2A Debug|Win32
+		{C9D1D1E9-BAEC-4263-9C6C-6B0DF9428CCF}.G2A Debug|x86.Build.0 = G2A Debug|Win32
+		{C9D1D1E9-BAEC-4263-9C6C-6B0DF9428CCF}.G2A Release|x86.ActiveCfg = G2A Release|Win32
+		{C9D1D1E9-BAEC-4263-9C6C-6B0DF9428CCF}.G2A Release|x86.Build.0 = G2A Release|Win32
+		{C9D1D1E9-BAEC-4263-9C6C-6B0DF9428CCF}.Release|x86.ActiveCfg = Release|Win32
+		{C9D1D1E9-BAEC-4263-9C6C-6B0DF9428CCF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

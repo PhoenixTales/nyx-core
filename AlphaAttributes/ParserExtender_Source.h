@@ -266,7 +266,7 @@ namespace NAMESPACE {
 
       SetEnableParsing( par, True );
       string fileName = line.Copy(parName.Length(), line.Length() - parName.Length()).Shrink();
-      cmd << Col16( CMD_YELLOW ) << "Parsing: " << Col16( CMD_YELLOW | CMD_INT ) << fileName << Col16() << endl;
+      cmd << Col16( CMD_YELLOW ) << "Parsing: " << Col16( (byte)CMD_YELLOW | (byte)CMD_INT ) << fileName << Col16() << endl;
 
       if( par->ParseFile( Z fileName ) != 0 ) {
         if( !(GetParsed() & par) )

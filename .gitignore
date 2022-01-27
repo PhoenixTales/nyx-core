@@ -34,12 +34,20 @@
 # editors
 .vs/
 .vscode/
-NyxCore/.vs/
+AlphaAttributes/.vs/
+FireDecalFix/.vs/
 
 # compiled
-NyxCore/Bin/
-NyxCore/Debug/
-NyxCore/PDB/
-NyxCore/Release/
-NyxCore/G1\ Release/
-NyxCore/G1\ Debug/
+PDB/
+AlphaAttributes/Bin/
+AlphaAttributes/Debug/
+AlphaAttributes/PDB/
+AlphaAttributes/Release/
+AlphaAttributes/G1\ Release/
+AlphaAttributes/G1\ Debug/
+FireDecalFix/Bin/
+FireDecalFix/Debug/
+FireDecalFix/PDB/
+FireDecalFix/Release/
+FireDecalFix/G1\ Release/
+FireDecalFix/G1\ Debug/

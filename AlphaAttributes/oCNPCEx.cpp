@@ -284,7 +284,7 @@ namespace Gothic_I_Classic {
       zCModelAni* Ani_T_1HPARADE_O = mdl->GetAniFromAniID(mdl->GetAniIDFromAniName("T_1HPARADE_O"));
       zCModelAni* Ani_T_2HPARADE_O = mdl->GetAniFromAniID(mdl->GetAniIDFromAniName("T_2HPARADE_O"));
       // detect active animation, TODO: can we do this more elegantly?
-      zCModelAni* ActiveAni;
+      zCModelAni* ActiveAni = 0;
       if (mdl->IsStateActive(Ani_S_1HATTACK)) ActiveAni = Ani_S_1HATTACK;
       if (mdl->IsStateActive(Ani_T_1HATTACKL)) ActiveAni = Ani_T_1HATTACKL;
       if (mdl->IsStateActive(Ani_T_1HATTACKR)) ActiveAni = Ani_T_1HATTACKR;
