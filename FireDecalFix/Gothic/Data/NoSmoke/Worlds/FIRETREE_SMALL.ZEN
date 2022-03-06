@@ -1,0 +1,110 @@
+ZenGin Archive
+ver 1
+zCArchiverGeneric
+ASCII
+saveGame 0
+date 30.1.2001 20:36:45
+user roeske
+END
+objects 5        
+END
+
+[% oCWorld:zCWorld 64513 0]
+	[VobTree % 0 0]
+		childs0=int:1
+		[% zCVobLight:zCVob 46080 1]
+			pack=int:0
+			presetName=string:LIGHT
+			bbox3DWS=rawFloat:-2001.405761719 -1973.595947266 -2620.043945313 1998.594238281 2026.404174805 1379.955932617 
+			trafoOSToWSRot=raw:984226bf00000000a9a9423f000000000000803f00000000a7a942bf00000000974226bf
+			trafoOSToWSPos=vec3:-1.405848384 26.404052734 -620.044067383
+			vobName=string:LIGHT
+			visual=string:
+			showVisual=bool:0
+			visualCamAlign=enum:0
+			cdStatic=bool:0
+			cdDyn=bool:0
+			staticVob=bool:0
+			dynShadow=enum:0
+			[visual % 0 0]
+			[]
+			[ai % 0 0]
+			[]
+			lightPresetInUse=string:LIGHT
+			lightType=enum:0
+			range=float:2000.000000000
+			color=color:223 173 117 255
+			spotConeAngle=float:0.000000000
+			lightStatic=bool:0
+			lightQuality=enum:2
+			lensflareFX=string:TORCHFX01
+			turnedOn=bool:1
+			rangeAniScale=string:
+			rangeAniFPS=float:0.000000000
+			rangeAniSmooth=bool:1
+			colorAniList=string:(211 147 107) (223 173 117) (211 147 107) (223 173 117) (225 197 100) (223 173 117) (227 209 106) (223 173 117) (211 147 107) (223 173 117) (225 197 100) (227 209 106) (223 173 117) (211 147 107) (225 197 100) (223 173 117) (225 197 100) (211 147 107) (223 173 117) (227 209 106) (225 197 100) (211 147 107) (225 197 100) (223 173 117) (225 197 100) (227 209 106) (223 173 117) (211 147 107) (223 173 117) (211 147 107) (225 197 100) (227 209 106) (223 173 117) 
+			colorAniFPS=float:10.000010490
+			colorAniSmooth=bool:0
+		[]
+		childs1=int:1
+		[% zCVob 52224 2]
+			pack=int:0
+			presetName=string:
+			bbox3DWS=rawFloat:0 0 0 0 0 0
+			trafoOSToWSRot=raw:0000803f0000000000000000000000000000803f0000000000000000000000000000803f
+			trafoOSToWSPos=vec3:-2.621890962 52.738769531 -617.449829102
+			vobName=string:TORCHFIRE
+			visual=string:TORC_A0.TGA
+			showVisual=bool:1
+			visualCamAlign=enum:1
+			cdStatic=bool:0
+			cdDyn=bool:0
+			staticVob=bool:0
+			dynShadow=enum:0
+			[visual zCDecal 0 3]
+				name=string:
+				decalDim=rawFloat:15 30
+				decalOffset=rawFloat:0 0
+				decal2Sided=bool:0
+				decalAlphaFunc=enum:3
+				decalTexAniFPS=float:20.0000019
+			[]
+			[ai % 0 0]
+			[]
+		[]
+		childs2=int:0
+		[% zCVobSound:zCVob 12289 4]
+			pack=int:0
+			presetName=string:
+			bbox3DWS=rawFloat:-602.982910156 -625.261230469 -1226.683715820 597.017089844 574.738769531 -26.683715820 
+			trafoOSToWSRot=raw:c4402fbe0000000012397c3f000000000000803f0000000010397cbf00000000c3402fbe
+			trafoOSToWSPos=vec3:-2.982940435 -25.261230469 -626.683715820
+			vobName=string:SOUND
+			visual=string:
+			showVisual=bool:0
+			visualCamAlign=enum:0
+			cdStatic=bool:0
+			cdDyn=bool:0
+			staticVob=bool:0
+			dynShadow=enum:0
+			[visual % 0 0]
+			[]
+			[ai % 0 0]
+			[]
+			sndVolume=float:100.000000000
+			sndMode=enum:0
+			sndRandDelay=float:5.000000000
+			sndRandDelayVar=float:2.000000000
+			sndStartOn=bool:1
+			sndAmbient3D=bool:0
+			sndObstruction=bool:0
+			sndConeAngle=float:0.000000000
+			sndVolType=enum:0
+			sndRadius=float:600.000000000
+			sndName=string:FIRE_SMALL
+		[]
+		childs3=int:0
+	[]
+	[EndMarker % 0 0]
+	[]
+[]
